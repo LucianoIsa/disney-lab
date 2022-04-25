@@ -1,15 +1,16 @@
 package com.alkemy.disney.disney.repository;
 
 import com.alkemy.disney.disney.entity.PersonajeEntity;
-import org.springframework.data.jpa.domain.Specification;
+import com.alkemy.disney.disney.modelo.Personaje;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 @Repository
-public interface PersonajeRepository extends JpaRepository<PersonajeEntity, Long>, JpaSpecificationExecutor<PersonajeEntity> {
+public interface PersonajeRepository extends JpaRepository<PersonajeEntity, Long>, JpaSpecificationExecutor<Personaje> {
 
-    @Override
-    List<PersonajeEntity> findAll(Specification<PersonajeEntity> spec);
+    Optional<Personaje> findByNombre(String string);
+
+    Optional<Personaje> findByNombreIgnoreCase (String string);
+
+    boolean existsByNombreIgnoreCase(String nombre);
 }

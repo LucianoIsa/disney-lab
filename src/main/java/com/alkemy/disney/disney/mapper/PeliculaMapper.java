@@ -1,6 +1,5 @@
 package com.alkemy.disney.disney.mapper;
 
-import com.alkemy.disney.disney.dto.PeliculaDTO;
 import com.alkemy.disney.disney.entity.PeliculaEntity;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;

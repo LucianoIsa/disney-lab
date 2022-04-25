@@ -1,8 +1,5 @@
 package com.alkemy.disney.disney.mapper;
 
-import com.alkemy.disney.disney.dto.PeliculaDTO;
-import com.alkemy.disney.disney.dto.PersonajeBasicDto;
-import com.alkemy.disney.disney.dto.PersonajeDTO;
 import com.alkemy.disney.disney.entity.PeliculaEntity;
 import com.alkemy.disney.disney.entity.PersonajeEntity;
 import org.jetbrains.annotations.NotNull;

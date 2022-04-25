@@ -1,12 +1,9 @@
 package com.alkemy.disney.disney.repository.specifications;
 
 import antlr.StringUtils;
-import com.alkemy.disney.disney.dto.PersonajeFiltersDTO;
 import com.alkemy.disney.disney.entity.PeliculaEntity;
 import com.alkemy.disney.disney.entity.PersonajeEntity;
-import org.hibernate.Criteria;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 

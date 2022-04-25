@@ -1,10 +1,8 @@
 package com.alkemy.disney.disney.service.impl;
 
-import com.alkemy.disney.disney.dto.PersonajeBasicDto;
-import com.alkemy.disney.disney.dto.PersonajeDTO;
-import com.alkemy.disney.disney.dto.PersonajeFiltersDTO;
 import com.alkemy.disney.disney.entity.PeliculaEntity;
 import com.alkemy.disney.disney.entity.PersonajeEntity;
+import com.alkemy.disney.disney.exception.ParamNotFound;
 import com.alkemy.disney.disney.mapper.PersonajeMapper;
 import com.alkemy.disney.disney.repository.PersonajeRepository;
 import com.alkemy.disney.disney.repository.specifications.PersonajeSpecification;

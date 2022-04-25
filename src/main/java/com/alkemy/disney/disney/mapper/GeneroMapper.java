@@ -1,6 +1,5 @@
 package com.alkemy.disney.disney.mapper;
 
-import com.alkemy.disney.disney.dto.GeneroDTO;
 import com.alkemy.disney.disney.entity.GeneroEntity;
 import org.springframework.stereotype.Component;
 
